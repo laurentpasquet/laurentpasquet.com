@@ -359,7 +359,7 @@
             display: grid;
             grid-template-columns: 100px 1fr;
             gap: 1.5rem;
-            margin-bottom: 1.8rem;
+            margin-bottom: 1rem;
             align-items: baseline;
         }
 
@@ -562,7 +562,7 @@
         </div>
         <div class="timeline-item">
             <div class="year">Ongoing</div>
-            <div class="desc"><strong>&Eacute;cole du Louvre</strong> evening program. Painting.</div>
+            <div class="desc"><strong>&Eacute;cole du Louvre</strong> evening program.</div>
         </div>
     </div>
 
@@ -581,7 +581,7 @@
         document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
         // ⚠️ REPLACE with your n8n webhook URL
-        const WEBHOOK_URL = 'YOUR_WEBHOOK_URL';
+        const WEBHOOK_URL = 'https://primary-production-505f3.up.railway.app/webhook/contact';
 
         document.getElementById('submitBtn').addEventListener('click', async function() {
             const btn = this;
